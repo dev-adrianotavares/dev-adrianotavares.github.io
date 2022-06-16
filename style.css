@@ -1,28 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Courier+Prime&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Courier+Prime&family=Xanh+Mono&display=swap');
+@font-face {
+    font-family: Doctor Glitch;
+    src: url(/fonts/doctor_glitch/Doctor\ Glitch.otf);
+}
 body {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #8ecae6;
+    background: linear-gradient(to right, #141e30, #243b55);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: auto;
 }
-h1 {
-    font-family: 'Berkshire Swash', cursive;
-
+h1, h2 {
+    color: wheat;
+    font-size: 40px;
 }
-
-#foto {
-    border-radius: 50%;
-    align-content: center;
+p {
+    color: wheat;
+    font-size: 20px;
 }
-
-.teste {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+nav {
+    font-family: 'Doctor Glitch';
+    position: absolute;
+    top: 10px;
+    left: 100px;
 }
 
 li {
-    padding: 10px;
+    color: wheat;
+    font-size: 22px;
+}
+.links {
+    display: flex;
+}
+
+.git {
+    margin-left: 50px;
+    height: 30px;
+}
+
+.linkedin {
+    height: 30px;
+    margin-left: 40px;
+}
+
+.eu {
+    height: 200px;
+    border-radius: 2%;
+}
+.introducao {
+    width: 800px;
+}
+
+a {
+    color: dodgerblue;
+}
+
+a:hover {
+    color: red;
+}
+
+.adriano {
+    list-style: none;
+    position: fixed;
+}
+
+#assinatura {
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    padding: 0;
+    align-content: center;
 }
