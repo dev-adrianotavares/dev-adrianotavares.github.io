@@ -1,122 +1,138 @@
 @font-face {
-    font-family: Doctor Glitch;
-    src: url(/fonts/doctor_glitch/Doctor\ Glitch.otf);
+  font-family: Doctor Glitch;
+  src: url(/fonts/doctor_glitch/Doctor\ Glitch.otf);
 }
+
 body {
-    background-color: rgb(13, 19, 23);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 50%;
-    margin: auto;
+  background-color: rgb(13, 19, 23);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  margin: auto;
 }
-h1, h2 {
-    color: wheat;
-    font-size: 40px;
+
+h1,
+h2 {
+  color: wheat;
+  font-size: 40px;
 }
+
 p {
-    color: wheat;
-    font-size: 20px;
+  color: wheat;
+  font-size: 20px;
 }
+
 nav {
-    font-family: 'Doctor Glitch';
-    position: absolute;
-    top: 10px;
-    left: 100px;
+  font-family: 'Doctor Glitch';
+  position: absolute;
+  top: 10px;
+  left: 100px;
 }
 
 li {
-    color: wheat;
-    font-size: 22px;
+  color: wheat;
+  font-size: 22px;
 }
+
 .links {
-    display: flex;
+  display: flex;
 }
 
 .git {
-    margin-left: 50px;
-    height: 30px;
+  margin-left: 50px;
+  height: 30px;
 }
 
 .linkedin {
-    height: 30px;
-    margin-left: 40px;
+  height: 30px;
+  margin-left: 40px;
 }
 
 .eu {
-    height: 200px;
-    border-radius: 2%;
+  height: 200px;
+  border-radius: 2%;
 }
+
 .introducao {
-    width: 800px;
+  width: 800px;
 }
 
 a {
-    color: dodgerblue;
+  color: dodgerblue;
 }
 
 a:hover {
-    color: red;
+  color: red;
 }
 
 .adriano {
-    list-style: none;
-    position: fixed;
+  list-style: none;
+  position: fixed;
 }
 
-#assinatura {
-
-}
+#assinatura {}
 
 footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: black;
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    padding: 0;
-    align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  padding: 0;
+  align-content: center;
 }
 
 button {
-    position: fixed;
-    width: 140px;
-    height: 45px;
-    font-size: 23px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: transparent;
-    color: wheat;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 700;
-    /* position: relative; */
-    transition: all 0.5s;
-    z-index: 1;
-    right: 300px;
-   }
-   
-   button::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 5px;
-    height: 100%;
-    background-color: wheat;
-    z-index: -1;
-    transition: all 0.5s;
-   }
-   
-   button:hover::before {
-    width: 100%;
-   }
-   
-   button:hover {
-    color: black;
-   }
-   
-   button:active:before {
-    background: #b9b9b9;
-   }
+  position: fixed;
+  width: 140px;
+  height: 45px;
+  font-size: 23px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: wheat;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  transition: all 0.5s;
+  z-index: 1;
+  right: 300px;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: wheat;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+button:hover::before {
+  width: 100%;
+}
+
+button:hover {
+  color: black;
+}
+
+button:active:before {
+  background: #b9b9b9;
+}
+
+svg {
+  padding-top: 10px;
+  padding-left: 25px;
+  width: 25px;
+  fill: rgb(141, 63, 63);
+}
+
+.icones {
+  list-style: none;
+  display: flex;
+}
