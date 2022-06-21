@@ -3,7 +3,7 @@
     src: url(/fonts/doctor_glitch/Doctor\ Glitch.otf);
 }
 body {
-    background: linear-gradient(to right, #141e30, #243b55);
+    background-color: rgb(13, 19, 23);
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
