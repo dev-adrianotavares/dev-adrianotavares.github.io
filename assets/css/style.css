@@ -38,7 +38,8 @@ body {
   flex: 70%;
   /* border: 1px solid black; */
   text-align: right;
-  padding: 20px;
+  /* padding: 20px; */
+  margin-right: 10%;
 }
 
 .menu a {
@@ -58,8 +59,8 @@ body {
   padding: 0.625em 1.5625em;
   color: white;
   border-radius: 0.3125em;
-  margin-right: 10%;
-  margin-left: 5%;
+  /* margin-right: 10%;
+  margin-left: 5%; */
 }
 
 .menu a:nth-child(4):hover {
