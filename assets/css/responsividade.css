@@ -27,4 +27,27 @@
     margin: 5%;
     text-align: center;
   }
+  .mobile-menu-icon {
+    display: block;
+  }
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .mobile-menu a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+    border: 1px solid #EE9949;
+    color: #EE9949;
+    background: #163561;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 1.25em 1em;
+  }
+  .open {
+    display: block;
+  }
 }
