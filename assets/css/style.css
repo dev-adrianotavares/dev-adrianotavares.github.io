@@ -15,14 +15,13 @@ body {
   flex-flow: row wrap;
   height: 100px;
   background: white;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   width: 100%;
 }
 
 .logo {
-  flex: 20%;
   margin-left: 10%;
   /* border: 1px solid red; */  
   text-align: left;
@@ -35,7 +34,6 @@ body {
 }
 
 .menu {
-  flex: 70%;
   /* border: 1px solid black; */
   text-align: right;
   /* padding: 20px; */
