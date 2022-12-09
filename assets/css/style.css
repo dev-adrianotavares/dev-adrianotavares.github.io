@@ -53,7 +53,7 @@ body {
   border-bottom: 0.25em solid #163561;
 }
 
-#btn-contato {
+.menu a:nth-child(4) {
   background: #163561;
   padding: 0.625em 1.5625em;
   color: white;
@@ -62,7 +62,7 @@ body {
   margin-left: 5%;
 }
 
-#btn-contato:hover {
+.menu a:nth-child(4):hover {
   border: none;
   background: #EE9949;
 }
@@ -107,6 +107,20 @@ body {
 
 .contact-btn:hover {
   background: #163561;
+}
+
+.back-btn {
+  display: inline-block;
+  background: #163561;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 0.3125em;
+  text-decoration: none;
+}
+
+.back-btn:hover {
+  background: #EE9949;
 }
 
 .img-headline {
@@ -203,6 +217,10 @@ footer h3, footer p, footer b {
         width: 2em;
 }
 
-/* .logo-rodape {
-    padding: 6.25em;
-} */
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
